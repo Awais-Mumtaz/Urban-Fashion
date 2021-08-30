@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background-image: url(./background.png);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-left: 5%;
+    padding-left: 5%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: 100%;
+    height: 10vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 180px;
+    cursor: pointer;
+}
+
+.cart{
+    width: 60px;
+    cursor: pointer;
+}
+
+.navbar{
+    flex: 1;
+    padding-left: 60px;
+}
+
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #333;
+}
+.content{
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 14px;
+    margin: 15%;
+    color: #232d60;
+}
+
+.content p{
+    font-size: 20px;
+    color: #6a7199;
+}
+
+.content{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.btn{
+    display: inline-block;
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    border-radius: 6px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(91,28,68,0.15);
+}
+.icons{
+    margin-top: 40px;
+    display: flex;
+}
+
+.icons img{
+    width: 40px;
+    margin-right: 25px;
+}
+
+.feature-img{
+    height: 100%;
+    bottom: 0;
+    position: absolute;
+    right: 160px;
+}
+
+.social-links{
+    transform: rotate(-90deg);
+    position: absolute;
+    bottom: 180px;
+    left: -50px;
+}
+
+.social-links a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #6a7199;
+    padding-right: 20px;
+}
